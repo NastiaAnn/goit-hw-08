@@ -21,7 +21,7 @@
 		}
 	}
 	@include tablet {
-		background-image: var(--hero-bgr-gradient), url(../../images/hero.jpg);
+		background-image: var(--hero-bgr-gradient), url(../../../../images/hero.jpg);
 		@include retina{
 			background-image: var(--hero-bgr-gradient), url(../../images/hero2x.jpg);
 		}
