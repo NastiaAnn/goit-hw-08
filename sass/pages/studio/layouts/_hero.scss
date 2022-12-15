@@ -7,12 +7,12 @@
 	padding-bottom: 118px;
 	text-align: center;
 	background: #c4c4c4;
-	background-image: var(--hero-bgr-gradient), url(../../images/hero-mob.jpg);
+	background-image: var(--hero-bgr-gradient), url(../../../../images/hero--mob-1x.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	@include retina {
-		background-image: var(--hero-bgr-gradient), url(../../mages/hero-mob2x.jpg);
+		background-image: var(--hero-bgr-gradient), url(../../../../images/hero--mob-2x.jpg);
 	}
 	@include mobile {
 		background-image: var(--hero-bgr-gradient), url(../../images/hero-tab.jpg);
